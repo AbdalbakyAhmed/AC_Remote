@@ -1,0 +1,70 @@
+{
+	"AC_BRAND": "CARRIER",
+	"LEADING": "9000",
+	"SPACE": "4500",
+	"HIGH_M": "15500",
+	"LOW_M": "550",
+	"FRAME_LEN": "40",
+	"FIXED_BITS_GP": "3",
+	"FIXED_BITS": {
+		"BITS_POS_1": {
+			"START_BIT": "0",
+			"COUNT": "1",
+			"VALUE": "1"
+		},
+		"BITS_POS_2": {
+			"START_BIT": "4",
+			"COUNT": "4",
+			"VALUE": "0"
+		},
+		"BITS_POS_3": {
+			"START_BIT": "26",
+			"COUNT": "6",
+			"VALUE": "0"
+		}
+	},
+	"AC_MODE": "5",
+	"AC_MODE_BITS": {
+		"M_START_BIT": "8",
+		"COUNT": "3",
+		"M_A": "0",
+		"M_C": "1",
+		"M_D": "2",
+		"M_H": "3",
+		"M_F": "4"
+	},
+	"AC_FAN": "4",
+	"AC_FAN_BITS": {
+		"F_START_BIT": "11",
+		"COUNT": "2",
+		"SP_1": "0",
+		"SP_2": "1",
+		"SP_3": "2",
+		"SP_AUTO": "3"
+	},
+	"AC_SWING": "8",
+	"AC_SWING_BITS": {
+		"S_START_BIT": "13",
+		"COUNT": "3",
+		"L_1": "0",
+		"L_2": "1",
+		"L_3": "2",
+		"L_4": "3",
+		"L_5": "4",
+		"L6": "5",
+		"L_VER": "6",
+		"L_AUTO": "7"
+	},
+	"AC_TEMP": "16",
+	"AC_TEMP_BITS": {
+		"T_START_BIT": "16",
+		"COUNT": "8"
+	},
+	"AC_POWER": "2",
+	"AC_POWER_BITS": {
+		"P_START_BIT": "24",
+		"COUNT": "2",
+		"P_ON": "1",
+		"P_OFFF": "0"
+	}
+}
